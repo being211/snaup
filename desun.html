@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @charset "utf-8";
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        body {
+            font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+            font-size: 14px;
+            line-height: 24px; background-color: #000;
+        }
+
+
+/*1. 주된 메뉴를 먼저 만들어 '자식요소선택자'를 활용해 스타일을 꾸며준다!*/
+        #header {
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            align-items: center;
+            width: 100%; padding: 20px;
+        }
+
+        .header_inner {
+            width: 1320px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+        
+
+
+
+        .de {
+            width: 1200px;
+            margin: auto; padding-top: 200px;
+        }
+
+        .de img {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="header">
+    <div class="header_inner">
+        <h1 class="logo">
+            <a href="./index.html"><img src="./images/plogo1.png"></a>
+        </h1>
+    </div><!--header_inner-->
+</div><!--header-->
+
+
+    <div class="de">
+        <img src="./images/desunpage.jpg">
+    </div>
+</body>
+</html>

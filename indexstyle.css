@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/*나눔바른고딕*/
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+
+.nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'NanumBarunGothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+#best_item ul li:hover .w_box {
+    top: 0;
+    transition: all 1s;
+}
+
+#link11 {
+    padding: 200px 0px;
+}
+
+.sangse {
+    width: 1320px;
+    margin: auto;
+}
+
+.sangse h3{text-align: center; color: #f62f1a;}
+
+.sangse ul {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+}
+
+.sangse ul li{padding: 10px 10px 5px 10px;}
+
+
+
+/*자세히보기후버*/
+.sangse ul li{
+    overflow: hidden;
+    position: relative;
+    /*w_box포지션의 기준*/
+}
+
+.w_box {
+    background-color: rgba(43, 42, 42, 0.5);
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fffff0;
+}
+
+
+.sangse ul li:hover .w_box {
+    top: 0;
+    transition: all 0.5s;
+}
+
+
+/*자세히보기 후버 끝*/
+
+
+
+
+#link11,
+#link1,
+#link4 {
+    width: 1320px;
+    margin: auto;
+}
+
+#link11 img {
+    width: 100%;
+}
+
+#link1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pagead {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#menu {
+    width: 1320px;
+    margin: 100px auto;
+    padding-top: 100px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs li {color: #f62f1a;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.tabs li.active {color: #6b0303;
+    border-bottom: 3px solid #000;
+    font-weight: bold;
+}
+
+.tab_content {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#tab1 {
+    display: flex;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.card1 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.card2 {}
+
+.tab_content h1 {
+    padding-bottom: 20px;
+}
+
+.tab_content {
+    width: 1320px;
+    margin: auto;
+    align-items: center;
+}
+
+#tab3 {text-align: left;
+    width: 1320px;
+    margin: auto; color: #fffff0;
+}
+#tab3 h2{line-height: 50%;}
+#tab3 h4{padding-bottom: 30px;}
+
+#tab3 p img {
+    width: 80%;
+}
+
+.mock2 {
+    width: 300px;
+}
+
+
+.bottom {
+    text-align: left;
+
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding: 50px 50px 50px 50px;
+    font-size: 14px;
+    margin-top: 100px;
+    line-height: 150%;
+    background-color: rgb(31, 31, 31);
+    font-weight: 300;
+}
